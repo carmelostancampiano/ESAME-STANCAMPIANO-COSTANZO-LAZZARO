@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: rgba(18, 21, 18, 1);
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    color: rgba(161, 161, 161, 1);
+    padding-right: 80px;
+}
+
+main h2{
+    color: rgba(161, 161, 161, 1);
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgba(51, 41, 41, 1) ;
+
+}
+
+
+header img {
+    max-width: 30%;
+    padding-left: 60px;
+}
+
+main, footer, .card{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20x;
+    }
+
+    .card {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:20px;
+        background: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        margin-bottom: 120px;
+    }
+
+    .card h2{
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    .card img{
+        max-width: 150%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .grid {
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 100px;\
+    }
+
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero h1 {
+        margin: 100px;
+        padding: 40px 10px;
+        font-size: 40px;
+        color: rgba(161, 161, 161, 1);
+    }
+
+    div.about{
+        font-size: 30px;
+        color: rgba(125, 126, 125, 1);
+    }
