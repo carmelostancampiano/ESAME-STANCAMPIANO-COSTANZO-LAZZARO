@@ -64,13 +64,12 @@ main, footer, .card{
     .card img{
         max-width: 150%;
         display: flex;
-        justify-content: flex-end;
     }
     .grid {
         margin: 40px auto;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 100px;\
+        gap: 100px;
     }
 
     section.hero {
@@ -80,11 +79,73 @@ main, footer, .card{
     section.hero h1 {
         margin: 100px;
         padding: 40px 10px;
-        font-size: 40px;
+        font-size: 30px;
         color: rgba(161, 161, 161, 1);
     }
 
     div.about{
         font-size: 30px;
         color: rgba(125, 126, 125, 1);
+    }
+
+    .modelsfreccia{
+        color: rgba(125, 126, 125, 1);
+        margin: 50px;
+    }
+
+    section.slogan{
+        color: rgba(125, 126, 125, 1);
+        margin: 35px;
+        padding: 40px 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    section.slogan img{
+        max-width: 200%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.nomeauto{
+        font-size: 50px;
+        color: rgba(159, 28, 33, 1);
+        text-align: center;
+    }
+
+    .fotoauto{
+        width: 200%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.descrizione{
+        color: rgba(125, 126, 125, 1);
+        font-size: 30px;
+    }
+
+    ul.dati{
+        color: rgba(125, 126, 125, 1);
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    p.rosso{
+        color: rgba(159, 28, 33, 1);
+    }
+
+    p.catalogo{
+        margin-top: 100px;
+        font-size: 20px;
+        color: rgba(159, 28, 33, 1);
+        display: flex;
+        justify-content: end;
+    }
+
+    .aca{
+        max-width: 20%;
+        display: block;
+        margin-left: 80%;
     }
