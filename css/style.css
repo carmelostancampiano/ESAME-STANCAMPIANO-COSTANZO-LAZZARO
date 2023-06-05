@@ -130,6 +130,7 @@ main, footer, .card{
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
         font-size: 20px;
+        line-height: 10px;
     }
 
     p.rosso{
@@ -145,7 +146,7 @@ main, footer, .card{
     }
 
     .aca{
-        max-width: 20%;
+        max-width: 15%;
         display: block;
         margin-left: 80%;
     }
