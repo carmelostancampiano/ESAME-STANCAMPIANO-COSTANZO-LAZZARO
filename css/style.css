@@ -23,6 +23,7 @@ main h2{
     color: rgba(161, 161, 161, 1);
     text-decoration: underline;
     font-size: 40px;
+font-family: 'Teko', sans-serif;
 }
 
 header {
@@ -40,21 +41,52 @@ header img {
     padding-left: 60px;
 }
 
-main, footer, .card{
+main, footer, .card, .cardbrands{
     max-width: 1000px;
     margin: auto;
     padding: 20x;
     }
 
     .card {
-        display: grid; 
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap:20px;
+        gap:40px;
         background: rgba(51, 41, 41, 1);
         border-radius: 30px;
-        margin-bottom: 120px;
+width: 300px;
+        height: 250px;
     }
+
+    .cardbrands {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:40px;
+        background: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        margin-bottom: 20px;
+        height: 300px;
+        width: 180px;
+    }
+
+.cardbrands h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cardbrands img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardbrands li{
+font-size: 20px;
+list-style-type: none;
+padding: 20px;
+text-align: center;
+}
+
 
     .card h2{
         font-size: 30px;
@@ -62,22 +94,33 @@ main, footer, .card{
     }
 
     .card img{
-        max-width: 150%;
-        display: flex;
+        max-width: 100%;
     }
     .grid {
-        margin: 40px auto;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 100px;
+        grid-template-columns: repeat(3,200px);  /* 3 columns */
+        grid-template-rows: repeat(3,150px); /* 3 rows  */
+        grid-gap:200px 200px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+        justify-content: center;
     }
+.grid h2{
+    margin-left: 10px;
+}
+    .gridbrands
+ {
+  display: grid;
+  grid-template-columns: repeat(3,200px);  /* 3 columns */
+  grid-template-rows: repeat(3,150px); /* 3 rows  */
+  grid-gap:200px 80px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  justify-content: center;
+}
 
     section.hero {
         text-align: center;
     }
 
     section.hero h1 {
-        margin: 100px;
+        margin: 50px;
         padding: 40px 10px;
         font-size: 30px;
         color: rgba(161, 161, 161, 1);
@@ -95,10 +138,12 @@ main, footer, .card{
 
     section.slogan{
         color: rgba(125, 126, 125, 1);
-        margin: 35px;
-        padding: 40px 10px;
+        margin: 30px;
+        padding: 20px;
         font-size: 20px;
         text-align: center;
+        font-family: 'Donegal One', serif;
+        font-weight: normal;
     }
 
     section.slogan img{
@@ -112,10 +157,11 @@ main, footer, .card{
         font-size: 50px;
         color: rgba(159, 28, 33, 1);
         text-align: center;
+font-family: 'Teko', sans-serif;
     }
 
     .fotoauto{
-        width: 200%;
+        width: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -123,30 +169,84 @@ main, footer, .card{
 
     p.descrizione{
         color: rgba(125, 126, 125, 1);
-        font-size: 30px;
+        font-size: 25px;
+        font-family: 'Donegal One', serif;
     }
 
     ul.dati{
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
-        font-size: 20px;
-        line-height: 10px;
+        font-size: 30px;
+        line-height: 30px;
+        background-color: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 32%;
+        height: fit-content;
+        padding: 20px;
+        font-family: 'Teko', sans-serif;
+     
     }
 
-    p.rosso{
+    span.rosso{
         color: rgba(159, 28, 33, 1);
+        padding-right: 20px;
+        text-align: left;
+        font-family: 'Teko', sans-serif;
     }
 
-    p.catalogo{
-        margin-top: 100px;
-        font-size: 20px;
+    .catalogo{
+    margin-top: 30px;
+    gap: 20px;
+        font-size: 35px;
         color: rgba(159, 28, 33, 1);
-        display: flex;
-        justify-content: end;
     }
 
     .aca{
-        max-width: 15%;
+        margin-top: 10px;
+        max-width: 50%;
+
+    }
+
+ span.exo{
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+    }
+
+    .gridbrands {
+        font-family: 'Exo', sans-serif;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+
+    .gridbrands li{
+        font-family: 'Exo', sans-serif;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+        background-color: rgba(85, 84, 84, 1);
+        width: fit-content;
+        height: fit-content;
         display: block;
-        margin-left: 80%;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    div.about{
+        font-family: 'Donegal One', serif;
+        font-size: 25px;
+    }
+
+    .modelsfreccia{
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+    }
+
+    .nissanlogo{
+        width: 75px;
     }
