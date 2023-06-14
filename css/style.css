@@ -9,7 +9,7 @@ img{
 }
 
 header nav ul {
-    margin:0;
+    margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -26,6 +26,7 @@ header nav ul {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
+    max-width: 100%;
 }
 
 
@@ -63,7 +64,7 @@ main, footer, .card, .cardbrands{
         gap:40px;
         background: rgba(51, 41, 41, 1);
         border-radius: 30px;
-width: 300px;
+        width: 300px;
         height: 250px;
     }
 
@@ -79,7 +80,7 @@ width: 300px;
     }
 
 .cardbrands h2{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     text-decoration: none;
 }
@@ -99,7 +100,7 @@ text-align: center;
 
 
     .card h2{
-        font-size: 30px;
+        font-size: 25px;
         text-decoration: none;
     }
 
@@ -132,7 +133,7 @@ text-align: center;
     section.hero h1 {
         margin: 50px;
         padding: 40px 10px;
-        font-size: 30px;
+        font-size: 25px;
         color: rgba(161, 161, 161, 1);
     }
 
@@ -143,8 +144,9 @@ text-align: center;
         padding: 20px;
         font-size: 20px;
         text-align: center;
-        font-family: 'Donegal One', serif;
+        font-family: 'Exo', sans-serif;
         font-weight: normal;
+        line-height: 1.2;
     }
 
     section.slogan img{
@@ -171,13 +173,14 @@ font-family: 'Teko', sans-serif;
     p.descrizione{
         color: rgba(125, 126, 125, 1);
         font-size: 25px;
-        font-family: 'Donegal One', serif;
+        font-family: 'Exo', sans-serif;
+        line-height: 1.2;
     }
 
     ul.dati{
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 40px;
         background-color: rgba(51, 41, 41, 1);
         border-radius: 30px;
@@ -197,7 +200,7 @@ font-family: 'Teko', sans-serif;
     .catalogo{
     margin-top: 30px;
     gap: 20px;
-        font-size: 35px;
+        font-size: 25px;
         color: rgba(159, 28, 33, 1);
     }
 
@@ -238,17 +241,18 @@ font-family: 'Teko', sans-serif;
     }
 
     div.info{
-        font-family: 'Donegal One', serif;
-        font-size: 25px;
+        font-family: 'Exo', sans-serif;
+        font-size: 20px;
         color: rgba(125, 126, 125, 1);
+        line-height: 1.2;
     }
 
     .modelsfreccia{
         font-family: 'Teko', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         background-color: rgba(51, 41, 41, 1);
         border-radius: 30px;
@@ -263,7 +267,7 @@ font-family: 'Teko', sans-serif;
         font-size: 30px;
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         background-color: rgba(51, 41, 41, 1);
         border-radius: 30px;
@@ -274,10 +278,10 @@ font-family: 'Teko', sans-serif;
     }
     .modelsfreccia3{
         font-family: 'Teko', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         color: rgba(125, 126, 125, 1);
         list-style-type: none;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         background-color: rgba(51, 41, 41, 1);
         border-radius: 30px;
@@ -344,8 +348,9 @@ margin-left: auto;
                                 .navbar ul ul li a {
                                     background-color: rgba(51, 41, 41, 1);
                                     text-align: center;
-                                    padding: 10px;
-                                    color: rgba(161, 161, 161, 1);}
+                                    padding: auto;
+                                    color: rgba(161, 161, 161, 1);
+                                }
                     
 footer ul{
     text-align: center;
