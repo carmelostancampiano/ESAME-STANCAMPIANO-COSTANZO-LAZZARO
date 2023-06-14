@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    background-color: rgba(18, 21, 18, 1);
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    font-size: 20px;
+    color: rgba(161, 161, 161, 1);
+    padding-right: 80px;
+    height: 90px; 
+    line-height: 90px; 
+    white-space: nowrap; 
+}
+.logo{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+}
+
+
+main h2, footer h2{
+    color: rgba(161, 161, 161, 1);
+    text-decoration: underline;
+    font-size: 40px;
+font-family: 'Teko', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:rgba(51, 41, 41, 1) ;
+
+}
+
+
+header img {
+    max-width: 30%;
+    padding-left: 60px;
+}
+
+main, footer, .card, .cardbrands{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20x;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:40px;
+        background: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .cardbrands {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:40px;
+        background: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        margin-bottom: 20px;
+        height: 300px;
+        width: 180px;
+    }
+
+.cardbrands h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cardbrands img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardbrands li{
+font-size: 20px;
+list-style-type: none;
+padding: 20px;
+text-align: center;
+}
+
+
+    .card h2{
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .card img{
+        max-width: 100%;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,200px);  /* 3 columns */
+        grid-template-rows: repeat(3,150px); /* 3 rows  */
+        grid-gap:200px 200px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+        justify-content: center;
+    }
+.grid h2{
+    margin-left: 10px;
+}
+    .gridbrands
+ {
+  display: grid;
+  grid-template-columns: repeat(3,200px);  /* 3 columns */
+  grid-template-rows: repeat(3,150px); /* 3 rows  */
+  grid-gap:200px 80px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  justify-content: center;
+}
+
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero h1 {
+        margin: 50px;
+        padding: 40px 10px;
+        font-size: 25px;
+        color: rgba(161, 161, 161, 1);
+    }
+
+
+    section.slogan{
+        color: rgba(125, 126, 125, 1);
+        margin: 30px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-weight: normal;
+        line-height: 1.2;
+    }
+
+    section.slogan img{
+        max-width: 200%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.nomeauto{
+        font-size: 50px;
+        color: rgba(159, 28, 33, 1);
+        text-align: center;
+font-family: 'Teko', sans-serif;
+    }
+
+    .fotoauto{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.descrizione{
+        color: rgba(125, 126, 125, 1);
+        font-size: 25px;
+        font-family: 'Exo', sans-serif;
+        line-height: 1.2;
+    }
+
+    ul.dati{
+        color: rgba(125, 126, 125, 1);
+        list-style-type: none;
+        font-size: 25px;
+        line-height: 40px;
+        background-color: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 32%;
+        height: fit-content;
+        padding: 20px;
+        font-family: 'Teko', sans-serif;
+    }
+
+    span.rosso{
+        color: rgba(159, 28, 33, 1);
+        padding-right: 10px;
+        text-align: left;
+        font-family: 'Teko', sans-serif;
+    }
+
+    .catalogo{
+    margin-top: 30px;
+    gap: 20px;
+        font-size: 25px;
+        color: rgba(159, 28, 33, 1);
+    }
+
+    .aca{
+        margin-top: 10px;
+        max-width: 50%;
+
+    }
+
+ .exo{
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+    }
+
+    .gridbrands {
+        font-family: 'Exo', sans-serif;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+
+    .gridbrands li{
+        font-family: 'Exo', sans-serif;
+        color: rgba(161, 161, 161, 1);
+        text-decoration: none;
+        background-color: rgba(85, 84, 84, 1);
+        width: fit-content;
+        height: fit-content;
+        display: block;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    div.info{
+        font-family: 'Exo', sans-serif;
+        font-size: 20px;
+        color: rgba(125, 126, 125, 1);
+        line-height: 1.2;
+    }
+
+    .modelsfreccia{
+        font-family: 'Teko', sans-serif;
+        font-size: 25px;
+        color: rgba(125, 126, 125, 1);
+        list-style-type: none;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 32%;
+        height: fit-content;
+        padding: 20px;
+        text-decoration: none;
+        margin-top: 80px;
+    }
+    .modelsfreccia1{
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+        color: rgba(125, 126, 125, 1);
+        list-style-type: none;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 32%;
+        height: fit-content;
+        padding: 20px;
+        text-decoration: none;
+    }
+    .modelsfreccia3{
+        font-family: 'Teko', sans-serif;
+        font-size: 25px;
+        color: rgba(125, 126, 125, 1);
+        list-style-type: none;
+        font-size: 25px;
+        text-align: center;
+        background-color: rgba(51, 41, 41, 1);
+        border-radius: 30px;
+        width: 32%;
+        height: fit-content;
+        padding: 20px;
+        text-decoration: none;
+    }
+    
+    .modelsfreccia a:hover{
+        color: rgba(161, 161, 161, 1);
+    }
+
+    .nissanlogo{
+        width: 75px;
+    }
+
+    .navbar {
+margin-right: auto;
+margin-left: auto;
+        
+        position: relative;
+        
+        z-index: 999;
+        
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+
+            .navbar li {
+        
+                display: flex;
+                }
+
+                .navbar li a {
+                    display: block;
+                  margin: auto;
+                    text-decoration: none;
+                    }
+
+                    .navbar ul ul {
+                        position: absolute;
+                        top: 100%;
+                        display: none;
+                        }
+
+                        .navbar ul ul li {
+                            display: block;
+                            }
+                            
+                            .navbar li:hover ul {
+                            display: block;
+                            }
+
+                            .navbar ul ul li a:hover {
+                                background-color: #555;
+                                color: rgba(161, 161, 161, 1);
+                                }
+                                
+                                .navbar ul ul li a {
+                                    background-color: rgba(51, 41, 41, 1);
+                                    text-align: center;
+                                    padding: auto;
+                                    color: rgba(161, 161, 161, 1);
+                                }
+                    
+footer ul{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size:  20px;
+ color: rgba(125, 126, 125, 1);
+    display: flex;
+    justify-content: center;  
+     list-style-type: none;
+     gap: 30px;
+     font-family: 'Exo', sans-serif;
+     margin: 50px;
+}
+  footer ul a:hover{
+    color: rgba(161, 161, 161, 1);
+  }
+a {
+    text-decoration: none;
+  }
+
+  footer ul a{
+    text-decoration: none;
+    color: rgba(125, 126, 125, 1);
+  }
+
+.infofooter{
+    border-top: 5px solid  rgba(125, 126, 125, 1);
+}
+
+footer.noindex{
+    margin-top: 200px;
+}
+  
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+
+    header img {
+        max-width: 70%;
+        padding: 0;
+    }
+
+    header nav ul {
+        gap: 20px;
+        padding-right: 0;
+        height: auto;
+        line-height: normal;
+        white-space: normal;
+        font-size: 15px;
+    }
+
+    .slogan h1 {
+            font-size: 25px; 
+  
+    }
+    h1.nomeauto{
+        font-size: 35px;
+    }
+    .modelsfreccia,
+    .modelsfreccia1 {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+        margin: 10%;
+       
+    }
+
+    .grid,
+    .gridbrands {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .gridbrands {
+        justify-content: flex-start;
+    }
+    div.info {
+     font-size: 15px;  
+     padding: 10%; 
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer nav {
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .infofooter{
+        font-size: 15px;
+    }
+    
+  footer h2 {
+    font-size: 20px; 
+  }
+  footer ul {
+    font-size: 15px; 
+  }
+}
