@@ -405,7 +405,11 @@ footer.noindex{
         line-height: normal;
         white-space: normal;
         font-size: 15px;
+        align-items: center;
     }
+   .menu {
+    line-height: 400%;
+   }
     .slogan h1 {
         font-size: 25px; 
 
