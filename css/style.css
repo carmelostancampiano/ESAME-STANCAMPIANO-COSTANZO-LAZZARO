@@ -109,9 +109,9 @@ text-align: center;
     }
     .grid {
         display: grid;
-        grid-template-columns: repeat(3,200px);  /* 3 columns */
-        grid-template-rows: repeat(3,150px); /* 3 rows  */
-        grid-gap:200px 200px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+        grid-template-columns: repeat(3,200px); 
+        grid-template-rows: repeat(3,150px); 
+        grid-gap:200px 200px; 
         justify-content: center;
     }
 .grid h2{
@@ -120,9 +120,9 @@ text-align: center;
     .gridbrands
  {
   display: grid;
-  grid-template-columns: repeat(3,200px);  /* 3 columns */
-  grid-template-rows: repeat(3,150px); /* 3 rows  */
-  grid-gap:200px 80px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  grid-template-columns: repeat(3,200px); 
+  grid-template-rows: repeat(3,150px); 
+  grid-gap:200px 80px;
   justify-content: center;
 }
 

@@ -89,6 +89,7 @@ main, footer, .card, .cardbrands{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 40%;
 }
 
 .cardbrands li{
@@ -104,9 +105,6 @@ text-align: center;
         text-decoration: none;
     }
 
-    .card img{
-        max-width: 100%;
-    }
     .grid {
         display: grid;
         grid-template-columns: repeat(3,200px); 
@@ -120,9 +118,9 @@ text-align: center;
     .gridbrands
  {
   display: grid;
-  grid-template-columns: repeat(3,200px); 
-  grid-template-rows: repeat(3,150px); 
-  grid-gap:200px 80px; 
+  grid-template-columns: repeat(3,200px);
+  grid-template-rows: repeat(3,150px);
+  grid-gap:200px 80px;
   justify-content: center;
 }
 
@@ -351,7 +349,7 @@ margin-left: auto;
                                     padding: auto;
                                     color: rgba(161, 161, 161, 1);
                                 }
-                    
+                            
 footer ul{
     text-align: center;
     padding: 0;
@@ -386,7 +384,6 @@ a {
 footer.noindex{
     margin-top: 200px;
 }
-  
 @media only screen and (max-width: 600px) {
     header {
         flex-direction: column;
@@ -406,47 +403,61 @@ footer.noindex{
         line-height: normal;
         white-space: normal;
         font-size: 15px;
-    }
-
-    .grid,
-    .gridbrands {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-    }
-
-    .gridbrands {
-        justify-content: flex-start;
-    }
-    div.info {
-     font-size: 15px;  
-     padding: 10%; 
-    }
-    footer {
-        flex-direction: column;
         align-items: center;
-        text-align: center;
     }
+   .menu {
+    line-height: 400%;
+   }
+        main h2,
+        footer h2 {
+          font-size: 30px;
+            padding: 10%;
+        }
 
-    footer nav {
-        margin-bottom: 10px;
-    }
 
-    footer ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .infofooter{
-        font-size: 15px;
-    }
+.cardbrands img {
+    max-width: 30% ;
+}
+
+.cardbrands h2 {
+  font-size: 20px;
+}
+
+.cardbrands li {
+  font-size: 16px; 
+  padding: 10px; 
+}
+      
+        .grid,
+        .gridbrands {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            justify-content: center;
+            }
+
+        footer {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
     
-  footer h2 {
-    font-size: 20px; 
-  }
-  footer ul {
-    font-size: 15px; 
-  }
-  .us h2 {
-    font-size: 30px;
-    padding: 10%;
-}
-}
+        footer nav {
+            margin-bottom: 10px;
+        }
+    
+        footer ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .infofooter{
+            font-size: 15px;
+        }
+        
+      footer h2 {
+        font-size: 20px; 
+      }
+      footer ul {
+        font-size: 15px; 
+      }
+    }
