@@ -33,7 +33,7 @@ header nav ul {
 main h2, footer h2{
     color: rgba(161, 161, 161, 1);
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
 font-family: 'Teko', sans-serif;
 }
 
@@ -406,7 +406,6 @@ footer.noindex{
         height: auto;
         line-height: normal;
         white-space: normal;
-        font-size: 15px;
         align-items: center;
     }
    .menu {
@@ -422,6 +421,9 @@ footer.noindex{
 h1.nomeauto{
     font-size: 35px;
 }
+main h2 {
+    font-size: 25px;
+  }
     main, footer, .card, .cardbrands {
       padding: 10px;
     }
@@ -473,6 +475,7 @@ h1.nomeauto{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 10%;
     }
 
     footer nav {
@@ -488,7 +491,7 @@ h1.nomeauto{
     }
     
   footer h2 {
-    font-size: 20px; 
+    font-size: 25px; 
   }
   footer ul {
     font-size: 15px; 

@@ -33,7 +33,7 @@ header nav ul {
 main h2, footer h2{
     color: rgba(161, 161, 161, 1);
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
 font-family: 'Teko', sans-serif;
 }
 
@@ -405,11 +405,13 @@ footer.noindex{
         height: auto;
         line-height: normal;
         white-space: normal;
-        font-size: 15px;
         align-items: center;
     }
    .menu {
     line-height: 400%;
+   }
+   main h2 {
+    font-size: 25px;
    }
      
     section.slogan h1 {
@@ -450,6 +452,7 @@ footer.noindex{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 10%;
     }
 
     footer nav {
@@ -465,7 +468,7 @@ footer.noindex{
     }
     
   footer h2 {
-    font-size: 20px; 
+    font-size: 25px; 
   }
   footer ul {
     font-size: 15px; 
