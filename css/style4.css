@@ -408,6 +408,9 @@ footer.noindex{
         white-space: normal;
         align-items: center;
     }
+    header nav ul {
+        font-size: 15px;
+    }
    .menu {
     line-height: 400%;
    }

@@ -406,6 +406,9 @@ footer.noindex{
         white-space: normal;
         align-items: center;
     }
+    header nav ul {
+        font-size: 15px;
+    }
    .menu {
     line-height: 400%;
    }
@@ -415,6 +418,13 @@ footer.noindex{
             padding: 10%;
         }
 
+        .slogan h1 {
+            font-size: 25px; 
+        
+        }
+        section.slogan img{
+        max-width: 20%;
+        }
 
 .cardbrands img {
     max-width: 30% ;
