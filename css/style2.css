@@ -176,6 +176,7 @@ font-family: 'Teko', sans-serif;
         font-size: 25px;
         font-family: 'Exo', sans-serif;
         line-height: 1.2;
+        margin-bottom: 1.2rem;
     }
 
     ul.dati{
@@ -190,6 +191,8 @@ font-family: 'Teko', sans-serif;
         padding: 20px;
         font-family: 'Teko', sans-serif;
         line-height: 1.2;
+        margin-bottom: 1.2rem;
+        
     }
 
     span.rosso{
@@ -247,6 +250,7 @@ font-family: 'Teko', sans-serif;
         font-size: 20px;
         color: rgba(125, 126, 125, 1);
         line-height: 1.2;
+        margin-bottom: 1.2rem;
     }
 
     .modelsfreccia{
@@ -447,6 +451,8 @@ main h2 {
    p.descrizione {
         font-size: 15px;  
         padding: 10%; 
+        line-height: 1.2;
+        margin-bottom: 1.2px;
        }
     ul.dati {
       width: 70%;
@@ -454,7 +460,10 @@ main h2 {
       line-height: 1.2;
       padding: 10px;
       margin: 10%;
+      margin-bottom: 1.2rem;
     }
+
+
 
     .catalogo{
         font-size: 20px;
